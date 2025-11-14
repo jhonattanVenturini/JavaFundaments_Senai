@@ -5,7 +5,17 @@ public class CadastroAluno {
         private String nomeAluno;
         int idade;
         String curso;
-        int idAluno;
+        public int idAluno;
+
+        // Construto public nomeClasse(){
+        public CadastroAluno(){
+
+        }
+        //Construtor alternativo com parametro idALUNO:
+        public CadastroAluno(int idAluno){
+                //vai carrgar a indentidade do aluno
+                this.idAluno = idAluno;
+        }
 
         public String getNomeAluno(){
                 return nomeAluno;
