@@ -3,6 +3,7 @@ package Aula01;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("---------------------------------");
         // existe somente na memoria do computador!
         CadastroAluno cad1 = new CadastroAluno();
         cad1.setNomeAluno("Fulano de tal");
@@ -38,5 +39,9 @@ public class Main {
         System.out.println("ID :\t\t"+ cad2.idAluno );
 
         System.out.println("---------------------------------");
+
+        CadastroAluno cad3 = new CadastroAluno(2333);
+        cad3.setNomeAluno("Maria de tal ");
+
     }
 }
